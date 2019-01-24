@@ -45,3 +45,4 @@ Completed 200 OK in 27ms (Views: 10.4ms | ActiveRecord: 0.2ms)
   [1m[36m (2.9ms)[0m  [1mcommit transaction[0m
   [1m[36mPost Load (1.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
   [1m[36mPost Load (1.7ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts"  ORDER BY "posts"."id" DESC LIMIT 1[0m
